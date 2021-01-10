@@ -1,0 +1,63 @@
+{
+  "name": "next-template",
+  "version": "0.1.0",
+  "author": "Innei",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run dev",
+    "prebuild": "rimraf .next",
+    "dev": "cross-env NODE_ENV=development next dev -p 2323",
+    "build": "cross-env NODE_ENV=production next build",
+    "build:ci": "cross-env NODE_ENV=production CI=true next build",
+    "lint": "eslint --ext .ts,.tsx --ignore-path .gitignore . --fix"
+  },
+  "browserslist": [
+    "chrome >70",
+    "safari >12",
+    "last 2 versions",
+    "last 8 Firefox versions",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions",
+    "> 1%"
+  ],
+  "dependencies": {
+    "axios": "0.21.1",
+    "camelcase-keys": "6.2.2",
+    "clsx": "1.1.1",
+    "dayjs": "1.10.3",
+    "js-cookie": "2.2.1",
+    "next": "10.0.5",
+    "next-seo": "4.17.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-use": "15.3.8"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.10",
+    "@babel/preset-env": "7.12.11",
+    "@babel/preset-react": "7.12.10",
+    "@types/lodash": "4.14.167",
+    "@types/node": "14.14.20",
+    "@types/react": "17.0.0",
+    "@types/react-dom": "17.0.0",
+    "@typescript-eslint/eslint-plugin": "4.9.0",
+    "@typescript-eslint/parser": "4.9.0",
+    "babel-plugin-lodash": "3.3.4",
+    "cross-env": "7.0.3",
+    "eslint": "7.17.0",
+    "eslint-config-prettier": "7.1.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "postcss": "8.2.4",
+    "postcss-flexbugs-fixes": "5.0.2",
+    "postcss-import": "14.0.0",
+    "postcss-loader": "4.1.0",
+    "postcss-nested": "5.0.3",
+    "postcss-preset-env": "6.7.0",
+    "prettier": "2.2.1",
+    "tailwindcss": "2.0.2",
+    "typescript": "4.1.3"
+  }
+}
