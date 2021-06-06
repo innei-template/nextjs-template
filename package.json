@@ -37,7 +37,7 @@
     "@babel/core": "7.12.17",
     "@babel/preset-env": "7.12.17",
     "@babel/preset-react": "7.12.13",
-    "@types/lodash": "4.14.167",
+    "@types/lodash": "4.14.170",
     "@types/node": "14.14.20",
     "@types/react": "17.0.0",
     "@types/react-dom": "17.0.0",
