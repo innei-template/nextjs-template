@@ -48,7 +48,7 @@
     "eslint": "7.28.0",
     "eslint-config-prettier": "7.1.0",
     "eslint-plugin-prettier": "3.4.0",
-    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react": "7.24.0",
     "eslint-plugin-react-hooks": "4.2.0",
     "postcss": "8.2.15",
     "postcss-flexbugs-fixes": "5.0.2",
