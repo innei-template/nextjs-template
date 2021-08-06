@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "axios": "0.21.1",
-    "camelcase-keys": "6.2.2",
+    "camelcase-keys": "7.0.0",
     "clsx": "1.1.1",
     "dayjs": "1.10.6",
     "js-cookie": "2.2.1",
