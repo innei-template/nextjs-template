@@ -34,9 +34,9 @@
     "react-use": "15.3.8"
   },
   "devDependencies": {
-    "@babel/core": "7.12.17",
-    "@babel/preset-env": "7.12.17",
-    "@babel/preset-react": "7.12.13",
+    "@babel/core": "7.15.0",
+    "@babel/preset-env": "7.15.0",
+    "@babel/preset-react": "7.14.5",
     "@types/lodash": "4.14.172",
     "@types/node": "14.17.9",
     "@types/react": "17.0.16",
