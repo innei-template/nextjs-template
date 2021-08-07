@@ -14,15 +14,6 @@ const configs = {
   env: {
     PORT: 2323,
   },
-  // assetPrefix: isProd ? env.ASSETPREFIX || '' : '',
-  async rewrites() {
-    return [
-      // {
-      //   source: '/service-worker.js',
-      //   destination: '/_next/static/service-worker.js',
-      // },
-    ]
-  },
   experimental: {
     granularChunks: true,
     modern: true,

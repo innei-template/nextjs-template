@@ -5,8 +5,8 @@ import { BasicLayout } from '../layouts/BasicLayout'
 const IndexPage: NextPage = () => {
   return (
     <BasicLayout>
-      <div className="flex max-w-xl m-auto">
-        <span className="text-lg ">Hello World</span>
+      <div className="max-w-xl m-auto py-5">
+        <h1 className="text-4xl text-center block">Hello World</h1>
       </div>
     </BasicLayout>
   )
